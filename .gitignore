@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Local environments
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Credentials
+*.pem
+*.key
+secrets/
+
+# Generated data and exports
+data/raw/
+data/processed/
+data/reference/
+*.parquet
+*.sqlite
+*.db
+
+# Logs and temporary files
+*.log
+*.tmp
+.cache/
+
+# Power BI local files
+**/.pbi/
+*.pbix
+*.pbit
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
