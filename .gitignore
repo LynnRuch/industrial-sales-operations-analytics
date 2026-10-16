@@ -26,6 +26,7 @@ data/reference/
 *.parquet
 *.sqlite
 *.db
+data/exports/
 
 # Logs and temporary files
 *.log
@@ -34,7 +35,6 @@ data/reference/
 
 # Power BI local files
 **/.pbi/
-*.pbix
 *.pbit
 
 # OS and editor files
@@ -42,3 +42,9 @@ data/reference/
 Thumbs.db
 .vscode/
 .idea/
+
+# Earlier development prototypes
+src/generation/generate_2025_january_shipments.py
+src/generation/select_industrial_zips_v2.py
+src/generation/build_industrial_zip_reference.py
+src/generation/build_shipping_zip_reference.py
